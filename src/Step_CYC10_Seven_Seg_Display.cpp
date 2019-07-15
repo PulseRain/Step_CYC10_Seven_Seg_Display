@@ -18,11 +18,11 @@
 ###############################################################################
 */
 
-#include "CYC10_7_seg_display.h"
+#include "Step_CYC10_7_seg_display.h"
 
-uint16_t CYC10_7_seg_display::value_;
-uint32_t CYC10_7_seg_display::refresh_count_;
-uint8_t  CYC10_7_seg_display::index_;
-uint8_t  CYC10_7_seg_display::active_dp_mask_;
+uint16_t Step_CYC10_7_seg_display::value_;
+uint32_t Step_CYC10_7_seg_display::refresh_count_;
+uint8_t  Step_CYC10_7_seg_display::index_;
+uint8_t  Step_CYC10_7_seg_display::active_dp_mask_;
 
-CYC10_7_seg_display SEVEN_SEG_DISPLAY (0xbeef, 400);
+Step_CYC10_7_seg_display SEVEN_SEG_DISPLAY (0xbeef, 400);
